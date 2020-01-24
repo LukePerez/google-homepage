@@ -2,7 +2,7 @@
 	display:grid;
 	width:98%;
 	margin: 0 auto;
-	grid-template-rows:155px 120px 165px;
+	grid-template-rows:155px 92px 165px 160px;
 	grid-template-columns:377px 585px 390px;
 }
 
@@ -21,6 +21,26 @@
 	grid-column-start:2;
 	grid-column-end:3;
 	grid-row-start:3;	
+	display:grid;
+	grid-template-rows:103px 85px;
+}
+.button {
+	background-color: #f4f5f6;
+	border: none;
+	border-radius:5px;
+	font-size:14px;
+	padding:8px 17px;
+	text-align:center;
+}
+#ggls{
+	margin-right:10px;
+}
+#buttons {
+	grid-row-start:2;
+	grid-row-end:3;
+	justify-self:center;
+	position:relative;
+	right:5px;
 }
 #search {
 	justify-self:center;
@@ -34,57 +54,99 @@
 	border-radius: 45px;
 	border: 1px solid #dbdbdb;
 	padding:10px 30px;
+	grid-row-start:1;
+	grid-row-end:2;
 }
 #one{
-	background-color:red;
+	background-color:white;
 	grid-column-start:1;
 	grid-column-end:2;
 	grid-row-start:1;
 	grid-row-end:2;
  }
+.AbSt{
+	font-size:13px;
+	color:black;
+	margin-left:13px;
+	position:relative;
+	top:17px;
+} 
 #two{
-	background-color:blue;
+	background-color:white;
 	grid-column-start:1;
 	grid-column-end:2;
 	grid-row-start:2;
 	grid-row-end:3;
  }
 #three{
-	background-color:green;
+	background-color:white;
 	grid-column-start:1;
 	grid-column-end:2;
 	grid-row-start:3;
 	grid-row-end:4;
  } 
 #four{
-	background-color:purple;
+	background-color:white;
 	grid-column-start:2;
 	grid-column-end:3;
 	grid-row-start:1;
 	grid-row-end:2;
  } 
 #five{
-	background-color:black;
+	background-color:white;
 	grid-column-start:3;
 	grid-column-end:4;
 	grid-row-start:1;
 	grid-row-end:2;
- }
+ } 
+.GmIm{
+	color:black;
+	font-size:13px;
+	position:relative;
+	top:16px;
+	left:135px;
+	margin-right:15px;
+} 
+#sq{
+	width:16px;
+	height:16px;
+	position:relative;
+	top:16px;
+	left:139px;
+	filter: opacity(75%); 
+}
+#signin {
+	border:none;
+	border-radius:2px;
+	background-color:#4285f4;
+	color:white;
+	padding:5px 15px;
+	font-size:13px;
+	position:relative;
+	top:16px;
+	left:155px;
+}
 #six{
-	background-color:orange;
+	background-color:white;
 	grid-column-start:3;
 	grid-column-end:4;
 	grid-row-start:2;
 	grid-row-end:3;
  } 
 #seven{
-	background-color:yellow;
+	background-color:white;
 	grid-column-start:3;
 	grid-column-end:4;
 	grid-row-start:3;
 	grid-row-end:4;
  }
- 
+#eight{
+	background-color:pink;
+	grid-column-start:1;
+	grid-column-end:4;
+	grid-row-start:4;
+	grid-row-end:5;
+} 
  
  
  
