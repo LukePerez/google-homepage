@@ -2,7 +2,7 @@
 	display:grid;
 	width:98%;
 	margin: 0 auto;
-	grid-template-rows:155px 92px 165px 160px;
+	grid-template-rows:155px 92px 295px 50px;
 	grid-template-columns:377px 585px 390px;
 }
 
@@ -24,6 +24,13 @@
 	display:grid;
 	grid-template-rows:103px 85px;
 }
+/*#mic {
+	background: url('//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+	height: 24px;
+	width: 24px;
+	background-size: 24px;
+	vertical-align: middle;
+}*/
 .button {
 	background-color: #f4f5f6;
 	border: none;
@@ -31,6 +38,13 @@
 	font-size:14px;
 	padding:8px 17px;
 	text-align:center;
+}
+.button:hover {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222;
 }
 #ggls{
 	margin-right:10px;
@@ -56,6 +70,10 @@
 	padding:10px 30px;
 	grid-row-start:1;
 	grid-row-end:2;
+}
+#search:hover{
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+	border-color: rgba(223,225,229,0);
 }
 #one{
 	background-color:white;
@@ -141,13 +159,42 @@
 	grid-row-end:4;
  }
 #eight{
-	background-color:pink;
+	background-color:#f1f1f1;
 	grid-column-start:1;
 	grid-column-end:4;
 	grid-row-start:4;
 	grid-row-end:5;
+	position:fixed;
+	bottom:0;
+	left:-5px;
+	width:110%;
+	display:grid;
+	grid-template-columns:1fr 1fr;
 } 
- 
+#left{
+	grid-column-start:1;
+	grid-column-end:2;
+}
+#right{
+	grid-column-start:2;
+	grid-column-end:3;
+} 
+.bll {
+	color:#5f6368;
+	font-size:15px;
+	position:relative;
+	top:5px;
+	left:30px;
+	margin-right:15px;	
+}
+.brl {
+	color:#5f6368;
+	font-size:15px;
+	position:relative;
+	top:5px;
+	left:420px;
+	margin-right:15px;
+}
  
  
 
